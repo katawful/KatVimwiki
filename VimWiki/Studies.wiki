@@ -1,0 +1,8 @@
+== Tasks ==
+* [✓] Study chapter 4.11
+* [✓] Study chapter 5.1
+* [◔] Study chapter 5.3
+
+== Current Status ==
+* C++ Primer: 5.3.2 switch Statements
+* I might wanna start python at some point idk

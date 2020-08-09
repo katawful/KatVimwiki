@@ -1,0 +1,10 @@
+== Cool Things to Check Out ==
+[[https://syncthing.net/|syncthing]] -- it allows on the fly file sharing
+
+[[https://github.com/lawl/NoiseTorch|NoiseTorch]] -- Noise cancellation project
+
+[[https://www.thespicehouse.com/|The Spice House]] -- buy chilies from here
+
+[[https://github.com/johannesthyssen/vim-signit|Vim-Signit]] -- Custom headers and footers for file
+
+[[https://www.ergodox.io/|ergodox]]

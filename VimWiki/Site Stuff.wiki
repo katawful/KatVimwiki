@@ -1,0 +1,4 @@
+* [◯] add atom feed
+* [◐] fix breadcrumb not looking good
+* [◯] check out [[https://staticman.net/docs/|staticman docs]] for comments
+* [◯] fix search not looking terrible

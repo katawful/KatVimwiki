@@ -1,0 +1,12 @@
+== Thursday, July 16, 2020 ==
+
+Had a migraine yesterday, wanted to get work done on my bookshelf.
+Currently working on setting up Vim-startify.
+Also need to do some work with Vimwiki.
+
+Well I finished up some of the Vimwiki shit I wanted to get done.
+I think I will edit the site CSS file to look better but I also don't know CSS at all.
+
+I got part of the shelf finished. 
+I kinda messed up and for got to add bevels so I gotta do that before the rest.
+Oh well.

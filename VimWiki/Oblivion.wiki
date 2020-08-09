@@ -1,0 +1,37 @@
+== Tasks ==
+* [◕] Oblivion Less Bounded -  alpha version release
+	1. [●] Figure out how to use messageboxes reasonably
+		* [●] This is mostly done, not super ideal
+	2. [✓] Solve the disabled mouse problem (enable mouse during MenuMode 2??)
+	3. [?] Customize randomization - maybe idk if I want it for an alpha
+	4. [◔] Add random places to start
+	5. [◕] Equipment randomization
+		* [◕] Expand current ideas
+	6. [◔] Finish MQ additions
+		a) [◯] Get "Find Emperor" quest in complete state
+			* [◯] Find bugs
+			* [◯] Clean up writing
+			* [◯] Spread papers around, remove once quest is done
+			* [◯] Remove changes once emperor is found dead
+			* [◯] Make sure Baurus works
+		b) [◐] Get "Go to Jail" quest in complete state
+			* [◯] Find bugs
+			* [◕] Add timers to setstage 50 and 55 so that it doesn't pop up instantly
+				* [✓] setstage 55 needs it to make the button appear more natural
+				* [✓] 50 needs it to just not be spammy
+				* [◯] also add timer to when we get thrown in jail
+			* [✓] kill all mythic dawn fucks in script
+			* [✓] make sure people are killed in ImperialDungeon03, currently they are not killed properly
+				* [?] not sure if this is the best way to do this????
+				* [?] seems like there are performance probs
+			* [◯] check performance throughout the mod
+			* [◔] Get sent to jail safely in and out of quest
+			* [◐] "Escape" Imperial Dungeon, find Emperor and do that stuff
+			* [◯] Remove all stuff, give clothes and stuff
+			* [◯] Have the player recollect items after quest
+	* [◯] change dark brotherhood quest that says you escaped from sewers unless you did
+
+== Random Oblivion Facts ==
+==== GoToJail ====
+	* This function only works in dialogue result scripts
+	* This function only works if all equipped equipment can be removed
