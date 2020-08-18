@@ -1,5 +1,5 @@
 == Tasks ==
-* [◕] Oblivion Less Bounded -  alpha version release
+* [◐] Oblivion Less Bounded -  alpha version release
 	1. [●] Figure out how to use messageboxes reasonably
 		* [●] This is mostly done, not super ideal
 	2. [✓] Solve the disabled mouse problem (enable mouse during MenuMode 2??)
@@ -7,16 +7,18 @@
 	4. [◔] Add random places to start
 	5. [◕] Equipment randomization
 		* [◕] Expand current ideas
-	6. [◯] Finish MQ additions
+	6. [◐] Finish MQ additions
 		a) [◯] Get "Find Emperor" quest in complete state
 			* [◯] Find bugs
 			* [◯] Clean up writing
 			* [◯] Spread papers around, remove once quest is done
 			* [◯] Remove changes once emperor is found dead
 			* [◯] Make sure Baurus works
-		b) [◯] Get "Go to Jail" quest in complete state
-			* [◯] Find bugs
-				* things don't get killed when walking into ImperialDungeon03
+		b) [◕] Get "Go to Jail" quest in complete state
+			* [◐] Find bugs
+				* [✓] things don't get killed when walking into ImperialDungeon03
+				* [◯] can't set stage to 85, the script does its thing once for some reason
+				* [◯] baurus and emperor go towards each other, try to fix
 			* [◕] Add timers to setstage 50 and 55 so that it doesn't pop up instantly
 				* [✓] setstage 55 needs it to make the button appear more natural
 				* [✓] 50 needs it to just not be spammy
@@ -33,7 +35,7 @@
 	* [◯] change dark brotherhood quest that says you escaped from sewers unless you did
 
 == Last Problem ==
-* I was working on getting the final stages of the jail MQ change
+* I was trying to get the quest to progress to 85
 
 == Random Oblivion Facts ==
 ==== GoToJail ====
