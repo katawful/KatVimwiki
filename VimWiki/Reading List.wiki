@@ -4,3 +4,5 @@
 [[https://www.reddit.com/r/vim/comments/hzsksq/simple_auto_match_braces_and_quotation_marks/|bracket mappings to check out]]
 
 [[https://vimtricks.com/p/vimtrick-reselect-last-visual-selection|Vim tricks]]
+
+[[https://www.copetti.org/projects/consoles/|copetti projects consoles]]

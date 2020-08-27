@@ -8,3 +8,7 @@
 [[https://github.com/johannesthyssen/vim-signit|Vim-Signit]] -- Custom headers and footers for file
 
 [[https://www.ergodox.io/|ergodox]]
+
+[[https://www.workshoptherapy.com/custom-made-panel-clamps/|workshoptherapy custom made panel clamps]]
+
+[[https://pypi.org/project/i3-instant-layout/|pypi project i3 instant layout]]
