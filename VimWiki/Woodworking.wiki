@@ -1,9 +1,4 @@
 == Tasks ==
-* [◯] Table extension
-	* [◯] I need to have a fence
-	* [◯] need to have a board to rest things on
-	* [◯] It needs to be removable of some sort
-		* [◯] I want some sort of adjustable legs
  
 == Rough Plans ==
 * Salt box

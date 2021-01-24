@@ -3,6 +3,7 @@
     * [[Woodworking]] -- All my woodworking stuff
     * [[Studies]] -- All of my studying things
     * [[Site Stuff]] -- Stuff for my site
+    * [[Vim Plugin]] -- Stuff I need to use make my Vim plugin
 
 == Other Stuff ==
     * [[Scratchpad]] -- various temporary stuff.
