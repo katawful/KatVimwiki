@@ -4,4 +4,6 @@
     * [✓] get it from a list function 
     * [✓] nested for loop
   * [✓] i need to get the next and previous closest lines
-  * [◯] stop it breaking when no signs
+  * [✓] stop it breaking when no signs
+  * [◯] with no errors a line 1 log info is made
+    * [◯] i need to not have this be a sign
