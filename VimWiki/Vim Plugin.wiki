@@ -1,9 +1,12 @@
 == Tasks ==
-* [◕] Jumping between signs
+* [✓] Jumping between signs
   * [✓] need to parse dictionary i get from vimscript
     * [✓] get it from a list function 
     * [✓] nested for loop
   * [✓] i need to get the next and previous closest lines
   * [✓] stop it breaking when no signs
-  * [◯] with no errors a line 1 log info is made
-    * [◯] i need to not have this be a sign
+  * [✓] with no errors a line 1 log info is made
+    * [✓] i need to not have this be a sign
+* [◯] floating window neovim
+  * [◯] need to be able to close window while not in it
+  * [◯] need to be able to parse a list to the floating window
