@@ -1,12 +1,44 @@
 == Tasks ==
-* [✓] Jumping between signs
-  * [✓] need to parse dictionary i get from vimscript
-    * [✓] get it from a list function 
-    * [✓] nested for loop
-  * [✓] i need to get the next and previous closest lines
-  * [✓] stop it breaking when no signs
-  * [✓] with no errors a line 1 log info is made
-    * [✓] i need to not have this be a sign
-* [◯] floating window neovim
-  * [◯] need to be able to close window while not in it
-  * [◯] need to be able to parse a list to the floating window
+* [◕] completion
+  * [✓] Jumping between signs
+    * [✓] need to parse dictionary i get from vimscript
+      * [✓] get it from a list function 
+      * [✓] nested for loop
+    * [✓] i need to get the next and previous closest lines
+    * [✓] stop it breaking when no signs
+    * [✓] with no errors a line 1 log info is made
+      * [✓] i need to not have this be a sign
+  * [✓] floating window neovim
+    * [✓] need to be able to close window while not in it
+    * [✓] need to be able to parse a list to the floating window
+  * [◯] floating window vim 
+    * [◯] need to port everything neovim to vim
+  * [◯] floating window general
+    * [◯] need to add more general keys for mapping
+  * [✓] indent
+    * [✓] do tests
+    * [✓] need to indent on a start
+      * [✓] but unindent on an end
+      * [✓] but unindent on an else then reindent on the next line
+
+
+== Oblivion Block Types ==
+* Game Mode
+  * begin
+  * indents inside of block
+  * next line column + 1
+  * end
+  * at column 0 always
+* Conditional
+  * if, else, elseif
+  * next line column + 1
+  * indents inside of block
+  * endif
+* Flow Control
+  * foreach, while
+  * next line column + 1
+  * indents inside of block
+  * loop
+* Variables/Script name
+  * always at column 0
+  * does not affect indent
