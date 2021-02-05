@@ -11,15 +11,18 @@
   * [✓] floating window neovim
     * [✓] need to be able to close window while not in it
     * [✓] need to be able to parse a list to the floating window
-  * [◯] floating window vim 
-    * [◯] need to port everything neovim to vim
-  * [◯] floating window general
-    * [◯] need to add more general keys for mapping
+  * [✓] floating window vim 
+    * [✓] need to port everything neovim to vim
+  * [✓] floating window general
+    * [✓] need to add more general keys for mapping
   * [✓] indent
     * [✓] do tests
     * [✓] need to indent on a start
       * [✓] but unindent on an end
       * [✓] but unindent on an else then reindent on the next line
+  * [◯] documentation
+  * [◯] let log support be disabled
+  * [◯] refactor for `:h autoloading`
 
 
 == Oblivion Block Types ==
