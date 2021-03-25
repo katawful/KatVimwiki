@@ -140,6 +140,106 @@ change dark brotherhood quest that says you escaped from sewers unless you did
 </ol>
 </ul>
 
+<div id="Generic Menus Notes"><h2 id="Generic Menus Notes" class="header"><a href="#Generic Menus Notes">Generic Menus Notes</a></h2></div>
+<p>
+Generic menus are a way for mod authors to create menus that behave like vanilla menus instead of relying on <code>MessageBox</code>.
+Generic menus require the following xml setup:
+</p>
+<pre class="brush: xml">
+&lt;menu name="MenuName"&gt;
+  &lt;class&gt; &amp;GenericMenu; &lt;/class&gt;
+  &lt;stackingtype&gt; &amp;no_click_past; &lt;/stackingtype&gt;
+  &lt;explorefade&gt; 0.25 &lt;/explorefade&gt;
+&lt;/menu&gt;
+</pre>
+<p>
+The name can be whatever, without spaces, and the class must always be <code>GenericMenu</code>.
+The <code>explorefade</code> and <code>stackingtype</code> traits must have those values.
+A generic menu can contain any valid menu traits, and can be built how the author desires.
+It has menu type <code>1011</code> and must be contained in <code>Data\Menus\Generic\</code>.
+</p>
+
+<p>
+The generic menu is called with <code>ShowGenericMenu "path\to\menu.xml" closingID(int)</code>.
+The closing ID is the menu element that uses said ID.
+It is optional, if not provided than any ID above 0 will close the menu when clicked/interacted.
+</p>
+
+<p>
+The vanilla game uses the executable to control all menus, thus we need to script all features ourselves.
+The use of menu event handlers is incredibly important and determines how we can control said menu.
+It is called with <code>SetMenuEventHandler</code> and has specific handlers it can take.
+These handlers requires specific parameters for the functions that get called however:
+<table>
+<tr>
+<th>
+Name
+</th>
+<th>
+Parameters
+</th>
+</tr>
+<tr>
+<td>
+<code>OnOpen</code>
+</td>
+<td>
+<code>menuType:int</code>
+</td>
+</tr>
+<tr>
+<td>
+<code>OnClose</code>
+</td>
+<td>
+<code>menuType:int</code>
+</td>
+</tr>
+<tr>
+<td>
+<code>OnClick</code>
+</td>
+<td>
+<code>menuType:int, tile:string, id:int</code>
+</td>
+</tr>
+<tr>
+<td>
+<code>OnMouseover</code>
+</td>
+<td>
+<code>menuType:int, tile:string, id:int</code>
+</td>
+</tr>
+</table>
+</p>
+
+<p>
+The functions for these handlers must contain the parameters in order to work, even if they're being used.
+For example:
+</p>
+<pre>
+scn DemoMenuMouseover
+int menu
+string_var tile
+int id
+Begin Function {menu, tile, id}
+  SetDebugMode 1
+    DebugPrint "menu: %g tile: %z id: %g", menu, tile, id
+  SetDebugMode 0
+End
+</pre>
+
+<pre>
+scn DemoMenuEventHandler
+ref rEventScript
+Begin Function {}
+  set rEventScript to DemoMenuScrollHandler
+  SetMenuEventHandler "OnClick", rEventScript, 1011
+End
+</pre>
+
+
 <div id="Last Problem"><h2 id="Last Problem" class="header"><a href="#Last Problem">Last Problem</a></h2></div>
 <ul>
 <li>

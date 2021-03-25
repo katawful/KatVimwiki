@@ -36,6 +36,60 @@
 			* [✓] Have the player recollect items after quest
 	* [◯] change dark brotherhood quest that says you escaped from sewers unless you did
 
+== Generic Menus Notes ==
+Generic menus are a way for mod authors to create menus that behave like vanilla menus instead of relying on `MessageBox`.
+Generic menus require the following xml setup:
+{{{class="brush: xml"
+<menu name="MenuName">
+  <class> &GenericMenu; </class>
+  <stackingtype> &no_click_past; </stackingtype>
+  <explorefade> 0.25 </explorefade>
+</menu>
+}}}
+The name can be whatever, without spaces, and the class must always be `GenericMenu`.
+The `explorefade` and `stackingtype` traits must have those values.
+A generic menu can contain any valid menu traits, and can be built how the author desires.
+It has menu type `1011` and must be contained in `Data\Menus\Generic\`.
+
+The generic menu is called with `ShowGenericMenu "path\to\menu.xml" closingID(int)`.
+The closing ID is the menu element that uses said ID.
+It is optional, if not provided than any ID above 0 will close the menu when clicked/interacted.
+
+The vanilla game uses the executable to control all menus, thus we need to script all features ourselves.
+The use of menu event handlers is incredibly important and determines how we can control said menu.
+It is called with `SetMenuEventHandler` and has specific handlers it can take.
+These handlers requires specific parameters for the functions that get called however:
+|     Name      |             Parameters              |
+|:-------------:|:-----------------------------------:|
+|   `OnOpen`    |           `menuType:int`            |
+|   `OnClose`   |           `menuType:int`            |
+|   `OnClick`   | `menuType:int, tile:string, id:int` |
+| `OnMouseover` | `menuType:int, tile:string, id:int` |
+
+The functions for these handlers must contain the parameters in order to work, even if they're being used.
+For example:
+{{{
+scn DemoMenuMouseover
+int menu
+string_var tile
+int id
+Begin Function {menu, tile, id}
+  SetDebugMode 1
+    DebugPrint "menu: %g tile: %z id: %g", menu, tile, id
+  SetDebugMode 0
+End
+}}}
+
+{{{
+scn DemoMenuEventHandler
+ref rEventScript
+Begin Function {}
+  set rEventScript to DemoMenuScrollHandler
+  SetMenuEventHandler "OnClick", rEventScript, 1011
+End
+}}}
+
+
 == Last Problem ==
 * 
 

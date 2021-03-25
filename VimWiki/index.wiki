@@ -4,6 +4,7 @@
     * [[Studies]] -- All of my studying things
     * [[Site Stuff]] -- Stuff for my site
     * [[Vim Plugin]] -- Stuff I need to use make my Vim plugin
+    * [[OBScript Guide|Obscript guide]] -- My guide
 
 == Other Stuff ==
     * [[Scratchpad]] -- various temporary stuff.

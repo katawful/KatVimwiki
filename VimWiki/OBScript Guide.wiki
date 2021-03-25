@@ -1,0 +1,13 @@
+= Post 0: Introduction =
+* [✓] adding scripts
+* [✓] general script discussion
+* [✓] due by the 28th
+* [✓] explain reference functions
+
+= Post 1: Making an alchemy station =
+* [◯] basic dos and don'ts
+* [◯] guidelines???? like uuhhhh C++ shit
+
+= ideas for posts =
+* [◯] disable hud keypress quest scripts and advanced conditional stuff
+* [◯] alchemy station moderate conditional stuff
