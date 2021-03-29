@@ -7,21 +7,24 @@
 
 [[https://github.com/johannesthyssen/vim-signit|Vim-Signit]] -- Custom headers and footers for file
 
-[[https://www.ergodox.io/|ergodox]]
+[[https://www.ergodox.io/|ergodox]] -- keeb i'd like to build
 
 [[https://www.workshoptherapy.com/custom-made-panel-clamps/|workshoptherapy custom made panel clamps]]
 
 [[https://pypi.org/project/i3-instant-layout/|pypi project i3 instant layout]]
+
 [[https://github.com/skywind3000/vim-rt-format|rt format]]
 
 [[https://keeb.io/products/elite-c-low-profile-version-usb-c-pro-micro-replacement-atmega32u4|USB-C pro micro thing]]
 
 [[https://rainkeebs.mx/product/trail-mix-kit/?v=7516fd43adaa|keeb pcb]]
 
-https://github.com/nowrep/obs-vkcapture
+[[https://github.com/nowrep/obs-vkcapture|OBS Vk Capture]]
 
-https://novelkeys.xyz/collections/switches
+[[https://novelkeys.xyz/collections/switches|Key Switches]]
 
-https://keeb.io/products/iris-keyboard-split-ergonomic-keyboard
+[[https://keeb.io/products/iris-keyboard-split-ergonomic-keyboard|Iris Keeb PCB]]
 
-https://keeb.io/collections/keyboard-pcbs/products/viterbi-keyboard-pcbs-5x7-70-split-ortholinear
+[[https://keeb.io/collections/keyboard-pcbs/products/viterbi-keyboard-pcbs-5x7-70-split-ortholinear|Keeb PCB]]
+
+[[https://gist.github.com/itod/ae27b30f7517dc18b8df110c1d98bccb|Split Keebs]]
