@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<div id="Tasks"><h3 id="Tasks" class="header"><a href="#Tasks">Tasks</a></h3></div>
+<div id="Tasks"><h2 id="Tasks" class="header"><a href="#Tasks">Tasks</a></h2></div>
 <ul>
 <li class="done2">
 Oblivion Less Bounded -  alpha version release
@@ -32,13 +32,17 @@ Customize randomization - maybe idk if I want it for an alpha
 Add random places to start
 
 <li class="done2">
-Equipment randomization
+Equipment randomizatiol
 
 <ul>
 <li class="done2">
 Expand current ideas
 
 </ul>
+</ol>
+</ul>
+<div id="Main Quest"><h2 id="Main Quest" class="header"><a href="#Main Quest">Main Quest</a></h2></div>
+<ol>
 <li class="done2">
 Finish MQ additions
 
@@ -96,9 +100,11 @@ Add timers to setstage 50 and 55 so that it doesn't pop up instantly
 <li class="done4">
 setstage 55 needs it to make the button appear more natural
 
+<ul>
 <li class="done4">
 50 needs it to just not be spammy
 
+</ul>
 <li>
 also add timer to when we get thrown in jail
 
@@ -138,9 +144,8 @@ Have the player recollect items after quest
 change dark brotherhood quest that says you escaped from sewers unless you did
 
 </ol>
-</ul>
 
-<div id="Generic Menus Notes"><h2 id="Generic Menus Notes" class="header"><a href="#Generic Menus Notes">Generic Menus Notes</a></h2></div>
+<div id="Generic Menus Notes"><h1 id="Generic Menus Notes" class="header"><a href="#Generic Menus Notes">Generic Menus Notes</a></h1></div>
 <p>
 Generic menus are a way for mod authors to create menus that behave like vanilla menus instead of relying on <code>MessageBox</code>.
 Generic menus require the following xml setup:
@@ -218,7 +223,7 @@ Parameters
 The functions for these handlers must contain the parameters in order to work, even if they're being used.
 For example:
 </p>
-<pre>
+<pre obse>
 scn DemoMenuMouseover
 int menu
 string_var tile
@@ -230,7 +235,7 @@ Begin Function {menu, tile, id}
 End
 </pre>
 
-<pre>
+<pre obse>
 scn DemoMenuEventHandler
 ref rEventScript
 Begin Function {}
@@ -240,15 +245,15 @@ End
 </pre>
 
 
-<div id="Last Problem"><h2 id="Last Problem" class="header"><a href="#Last Problem">Last Problem</a></h2></div>
+<div id="Generic Menus Notes-Last Problem"><h2 id="Last Problem" class="header"><a href="#Generic Menus Notes-Last Problem">Last Problem</a></h2></div>
 <ul>
 <li>
 
 
 </ul>
 
-<div id="Random Oblivion Facts"><h2 id="Random Oblivion Facts" class="header"><a href="#Random Oblivion Facts">Random Oblivion Facts</a></h2></div>
-<div id="Random Oblivion Facts-GoToJail"><h4 id="GoToJail" class="header"><a href="#Random Oblivion Facts-GoToJail">GoToJail</a></h4></div>
+<div id="Generic Menus Notes-Random Oblivion Facts"><h2 id="Random Oblivion Facts" class="header"><a href="#Generic Menus Notes-Random Oblivion Facts">Random Oblivion Facts</a></h2></div>
+<div id="Generic Menus Notes-Random Oblivion Facts-GoToJail"><h4 id="GoToJail" class="header"><a href="#Generic Menus Notes-Random Oblivion Facts-GoToJail">GoToJail</a></h4></div>
 <ul>
 <li>
 This function only works in dialogue result scripts

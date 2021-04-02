@@ -1,13 +1,16 @@
-== Hobby Stuff ==
-    * [[Oblivion]] -- Stuff for Oblivion
-    * [[Woodworking]] -- All my woodworking stuff
-    * [[Studies]] -- All of my studying things
-    * [[Site Stuff]] -- Stuff for my site
-    * [[Vim Plugin]] -- Stuff I need to use make my Vim plugin
-    * [[OBScript Guide|Obscript guide]] -- My guide
+= Hobby Stuff =
+  * [[Oblivion]] -- Stuff for Oblivion
+    * [[Oblivion#Tasks]]
+      * [[Oblivion#Main Quest]]
+    * [[Oblivion#Generic Menus Notes]]
+  * [[Woodworking]] -- All my woodworking stuff
+  * [[Studies]] -- All of my studying things
+  * [[Site Stuff]] -- Stuff for my site
+  * [[Vim Plugin]] -- Stuff I need to use make my Vim plugin
+  * [[OBScript Guide|Obscript guide]] -- My guide
 
-== Other Stuff ==
-    * [[Scratchpad]] -- various temporary stuff.
-    * [[Reading List]] -- Stuff I need to read
-    * [[Cool Sites]] -- Some cool sites I should visit at some point
-    * [[Name Change Stuff]] -- Stuff I need to change my name
+= Other Stuff =
+  * [[Scratchpad]] -- various temporary stuff.
+  * [[Reading List]] -- Stuff I need to read
+  * [[Cool Sites]] -- Some cool sites I should visit at some point
+  * [[Name Change Stuff]] -- Stuff I need to change my name
