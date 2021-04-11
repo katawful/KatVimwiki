@@ -1,6 +1,32 @@
-== Tasks ==
- 
-== Rough Plans ==
-* Salt box
-* removable table extension for table saw
-* sharpening stone holder for sink
+= Projects =
+General list of projects I need to work on 
+
+* [[#Cutting Board for Chaos]]
+  * [[#Cutting Board Details]]
+  * [[#Cutting Board Tasks]]
+* [[#Cabinet Doors for Bailey]]
+
+== Cutting Board for Chaos ==
+They wanted a roughly 12" x 18" * 1" cutting board with dark and light stripes.
+The stripes can be fairly thick overall.
+
+=== Cutting Board Details ===
+* Size: 18"x12"x1"
+* Wood Species: Maple & cherry
+* [[local:../assets/cuttingboarddesigns.jpg|Designs, they want the increasing stripes]]
+* [[Log for CBC]]
+
+=== Cutting Board Tasks ===
+* [✓] Design
+  * [✓] Get general idea on paper
+  * [✓] finalize stripe size
+* [◯] Get wood
+  * [◯] I need to go to Lakeshore Hardwoods to get the wood I need
+* [◯] Make board
+
+== Cabinet Doors for Bailey ==
+She wants 16 cabinet doors, all painted white.
+I don't have the sizes just yet.
+I need to make some test pieces relatively soon, but I am waiting on the router table fence so I can actually build it.
+The current plan is to use poplar and MDF.
+I also need to figure out how to make a door at all using the cope & stick/rail & stile bits I bought from Lee Valley.

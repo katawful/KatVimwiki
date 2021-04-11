@@ -1,9 +1,17 @@
 = Diary =
+
+== 2021 ==
+
+=== April ===
+  - [[2021-04-11|Keyboard Typing Woes]]
+  - [[2021-04-09|New Keyboard!]]
+  - [[2021-04-08|Calendar.vim]]
+
 == 2020 ==
 
 === July ===
-        - [[2020-07-26|Sunday, July 26 2020]]
-        - [[2020-07-22|Wednesday, 22 July 2020]]
-        - [[2020-07-17|Friday, July 17]]
-        - [[2020-07-16|Thursday, July 16, 2020]]
-        - [[2020-07-13]]
+  - [[2020-07-26|Sunday, July 26 2020]]
+  - [[2020-07-22|Wednesday, 22 July 2020]]
+  - [[2020-07-17|Friday, July 17]]
+  - [[2020-07-16|Thursday, July 16, 2020]]
+  - [[2020-07-13]]

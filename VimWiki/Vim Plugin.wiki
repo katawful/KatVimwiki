@@ -1,5 +1,5 @@
 == Tasks ==
-* [◕] completion
+* [✓] completion
   * [✓] Jumping between signs
     * [✓] need to parse dictionary i get from vimscript
       * [✓] get it from a list function 
@@ -20,10 +20,12 @@
     * [✓] need to indent on a start
       * [✓] but unindent on an end
       * [✓] but unindent on an else then reindent on the next line
-  * [◯] documentation
-  * [◯] let log support be disabled
-  * [◯] refactor for `:h autoloading`
+  * [✓] documentation
+  * [✓] let log support be disabled
+  * [✓] refactor for `:h autoloading`
 
+= Features =
+* [◯] Block highlighting
 
 == Oblivion Block Types ==
 * Game Mode
